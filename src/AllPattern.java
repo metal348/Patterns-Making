@@ -11,20 +11,72 @@ class AllPattern{
     void displayD(char c){
         
     }
+
     void displayE(char c){
-        int size = 7; // adjust the size of the pattern as needed
-        for (int i = 0; i < size; i++) {
-            for (int j = 0; j < size; j++) {
-                if (i == 0 || i == size - 1 || i == size / 2) {
-                    System.out.print("*");
-                } else if (j == 0) {
-                    System.out.print("*");
-                } else {
-                    System.out.print(" ");
-                }
-            }
-            
-            System.out.println();
-        }
+        
+    }
+    void displayF(char c){
+        
+    }
+    void displayG(char c){
+        
+    }
+    void displayH(char c){
+        
+    }
+    void displayI(char c){
+        
+    }
+    void displayJ(char c){
+        
+    }
+    void displayK(char c){
+        
+    }
+    void displayL(char c){
+        
+    }
+    void displayM(char c){
+        
+    }
+    void displayN(char c){
+        
+    }
+    void displayO(char c){
+        
+    }
+    void displayP(char c){
+        
+    }
+    void displayQ(char c){
+        
+    }
+    void displayR(char c){
+        
+    }
+    void displayS(char c){
+        
+    }
+    void displayT(char c){
+        
+    }
+    void displayU(char c){
+        
+    }
+    void displayV(char c){
+        
+    }
+    void displayW(char c){
+        
+    }
+    void displayX(char c){
+        
+    }
+    void displayY(char c){
+        
+    }
+    void displayZ(char c){
+        
     }
 }
+  
