@@ -23,6 +23,7 @@ class AllPattern{
                     System.out.print(" ");
                 }
             }
+            
             System.out.println();
         }
     }
