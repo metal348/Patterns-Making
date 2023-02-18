@@ -5,7 +5,7 @@ class Main5{
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your name");
         String input = sc.nextLine();
-        for(int i = 0; i<input.length()-1;i++){
+        for(int i = 0; i<=input.length()-1;i++){
             char c = input.charAt(i);
             AllPattern a1 = new AllPattern();
             switch(c){
