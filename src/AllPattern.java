@@ -16,7 +16,15 @@ class AllPattern{
         
     }
     void displayF(char c){
-        
+        System.out.print(
+            "* * * * * * \n"+
+             "*\n"+ 
+             "*\n" +
+             "* * * * * * \n"+
+             "*\n"+
+             "*\n"+
+             "*\n"
+             );
     }
     void displayG(char c){
         
