@@ -69,6 +69,9 @@ class LastLine{
                 case 'V':
                 displayV(c);
                 break;
+                case 'W':
+                displayW(c);
+                break;
                 case 'X':
                 displayX(c);
                 break;
@@ -84,85 +87,83 @@ class LastLine{
             }
         }
     }
-    void displayA(char c){
-    
-    }
+    void displayA(char c){ System.out.print("*           *  "); }
     void displayB(char c){
-        
+        System.out.print("* * * * *      ");
     }
     void displayC(char c){
-        
+        System.out.print("  * * * * *    ");
     }
     void displayD(char c){
-        
+        System.out.print("* * * *        ");
     }
     
     void displayE(char c){
-        
+        System.out.print("* * * * *    ");
     }
     void displayF(char c){
         System.out.print("*            ");
     }
     
     void displayG(char c){
-        
+        System.out.print("* * * *      *   ");
     }
     void displayH(char c){
-        
+        System.out.print("*       *    ");
     }
     void displayI(char c){
-        
+        System.out.print("* * * * *    ");
     }
     void displayJ(char c){
-        
+        System.out.print("* * * *        ");
     }
     void displayK(char c){
-        
+        System.out.print("*     *    ");
     }
     void displayL(char c){
-        
+        System.out.print("* * * * *    ");
     }
     void displayM(char c){
-        
+        System.out.print("*           *    ");
     }
     void displayN(char c){
-        
+        System.out.print("*           *    ");
     }
     void displayO(char c){
-        
+        System.out.print("    * * *        ");
     }
     void displayP(char c){
-        
+        System.out.print("*            ");
     }
     void displayQ(char c){
-        
+        System.out.print("    * * *   *    ");
     }
     void displayR(char c){
-        
+        System.out.print("*      *     ");
     }
     void displayS(char c){
-        
+        System.out.print("* * * * *    ");
     }
     void displayT(char c){
-        
+        System.out.print("    *        ");
     }
     void displayU(char c){
-        
+        System.out.print("* * * * *    ");
     }
     void displayV(char c){
-        
+        System.out.print("      *         ");
     }
     void displayW(char c){
-        
+        System.out.print("      *     *         ");
     }
     void displayX(char c){
-        
+        System.out.print("*     *    ");
     }
     void displayY(char c){
-        
+        System.out.print("  *          ");
     }
     void displayZ(char c){
-        
+        System.out.print("* * * *    ");
     }
     
 }

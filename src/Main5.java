@@ -1,10 +1,13 @@
+
 import java.util.Scanner;
 
 class Main5{
     public static void main(String[] args) {
+        while(true){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your name");
         String input = sc.nextLine();
+        input = input.toUpperCase();
         FirstLine f1 = new FirstLine(input);
         System.out.println();
         SecondLine f2 = new SecondLine(input);
@@ -19,5 +22,6 @@ class Main5{
         System.out.println();
         LastLine f7 = new LastLine(input);
         System.out.println();
+        }
     }
 }
